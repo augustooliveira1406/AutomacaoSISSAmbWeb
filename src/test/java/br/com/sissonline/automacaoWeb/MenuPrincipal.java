@@ -14,7 +14,7 @@ import org.openqa.selenium.WebElement;
 import java.util.LinkedHashMap;
 
 
-public class TesteMenus {
+public class MenuPrincipal {
     Driver driverWeb;
     WebDriver driver;
     PrincipalSissPage principalSissPage;

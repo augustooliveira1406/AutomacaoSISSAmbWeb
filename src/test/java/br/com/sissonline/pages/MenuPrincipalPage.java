@@ -102,5 +102,32 @@ public class MenuPrincipalPage {
         Driver.visibilityOf(menuPrincipalMap.btnConfirmarPopUp);
         menuPrincipalMap.btnConfirmarPopUp.click();
     }
+    //BOTÕES PADRÕES BUSCA PESSOA FISICA
+    public void clickCPF() {
+        menuPrincipalMap.btnCPF.click();
+    }
+    public void clickRG() {
+        menuPrincipalMap.btnRG.click();
+    }
+     public void clickCNS() {
+         menuPrincipalMap.btnCNS.click();
+     }
+    public void clickNome() {
+        menuPrincipalMap.btnNome.click();
+    }
+    public void clickProntuario() {
+        menuPrincipalMap.btnProntuario.click();
+    }
+    public void clickNCidadao() {
+        menuPrincipalMap.btnCidadao.click();
+    }
+    public void clickConfirmarBusca() {
+        menuPrincipalMap.btnConfirmarBusca.click();
+    }
+    public void clickcancelarBusca(){
+            menuPrincipalMap.btnCancelarBusca.click();
+    }
+
+
 
 }

@@ -47,29 +47,45 @@ public class MenuPrincipalMap {
 //MENU CRUD PADRÃO COM PESQUISA
     @FindBy(css = "#ctl00_operationsMenu_lblNew")
             public WebElement btnNovo;
-
     @FindBy(css = "#ctl00_operationsMenu_lblEdit")
             public WebElement btnEditar;
-
     @FindBy(css = "#ctl00_operationsMenu_lblDelete")
             public WebElement btnExcluir;
-
     @FindBy(css = "#ctl00_operationsMenu_lblSearch")
             public WebElement btnPesquisar;
-
     @FindBy(css = "#ctl00_operationsMenu_lblSave")
             public WebElement btnConfirmar;
-
     @FindBy(css = "#ctl00_operationsMenu_lblCancel")
             public WebElement btnCancelar;
-
     @FindBy(css = "#popup_ok")
             public WebElement btnConfirmarPopUp;
-
     @FindBy(css = "#ctl00_btnConfirm")
             public WebElement btnPesquisaPesquisar;
-
     @FindBy(xpath = "//*[@id=\"grdListTable_Table\"]/tbody/tr[1]/td")
             public WebElement clickSelecionado;
 
+//MENU BOTOES DE PESQUISA DE PESSOAS
+    @FindBy(xpath = "//*[@id=\"MenuIdentificacao\"]/li[2]")
+            public WebElement btnCPF;
+    @FindBy(xpath = "//*[@id=\"MenuIdentificacao\"]/li[3]")
+            public WebElement btnRG;
+    @FindBy(xpath = "//*[@id=\"MenuIdentificacao\"]/li[4]")
+            public WebElement btnCNS;
+    @FindBy(xpath = "//*[@id=\"MenuIdentificacao\"]/li[5]")
+            public WebElement btnNome;
+    @FindBy(xpath = "//*[@id=\"MenuIdentificacao\"]/li[6]")
+            public WebElement btnProntuario;
+    @FindBy(xpath = "//*[@id=\"MenuIdentificacao\"]/li[7]")
+            public WebElement btnCidadao;
+
+    @FindBy(css = "#txtIdentificacao" )
+            public WebElement cpfIdentifica;
+    @FindBy(css = "#txtDataNascimento" )
+            public WebElement dataNascimento;
+    @FindBy(css = "#txtNomeMae" )
+            public WebElement nomeMae;
+    @FindBy(css = "#btnConfirmarBusca")
+            public WebElement btnConfirmarBusca;
+    @FindBy(css = "#btnCancelarBusca")
+            public WebElement btnCancelarBusca;
 }
